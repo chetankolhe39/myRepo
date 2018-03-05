@@ -56,3 +56,4 @@ def test_mult(x,y,expected,multiplication):
 ])
 def test_div(x,y,expected,division):
     assert division == expected
+
