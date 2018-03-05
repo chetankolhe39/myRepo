@@ -2,6 +2,7 @@ import pytest
 
 @pytest.fixture()
 def addition(z):
+    print("returning x + y")
     return x + y
 
 @pytest.fixture()
